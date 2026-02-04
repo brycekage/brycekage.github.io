@@ -31,6 +31,13 @@ li.menu:hover {
     display: inline-block
 }
 
+#select{
+    background-color: lightblue;
+    margin: 0;
+    padding: 4px 6px;
+    display: inline-block
+}
+
 span p {
   background-color: royalblue;
   width: 60%;
