@@ -1,0 +1,76 @@
+<style>
+<!--style should be in head, #selected selcts tags w/id=selcted, .menu applies for class="menu", 
+whenever you refer to your own webpage or your own html. do not include the https-->
+
+a.menu {
+    color: blueviolet;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.menu {
+    background-color: lightblue;
+    float: left;
+    margin: 0;
+    padding: 10;
+}
+
+li.menu:hover {
+    background-color: lightcyan;
+}
+
+#selected{
+    background-color: lightblue;
+    margin: 0;
+    padding: 4px 6px;
+    display: inline-block
+}
+
+span p {
+  background-color: royalblue;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+
+  font-weight: bold;
+  font-size: 20px;
+}
+
+div {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+.food-photo {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+table {
+      border-collapse: collapse;
+    }
+    td {
+      border: 1px solid black;
+      width: 100px;
+      height: 40px;
+      text-align: center;
+      padding: 10;
+    }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+</style>
