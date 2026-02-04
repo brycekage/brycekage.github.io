@@ -1,6 +1,3 @@
-<style>
-<!--style should be in head, #selected selcts tags w/id=selcted, .menu applies for class="menu", 
-whenever you refer to your own webpage or your own html. do not include the https-->
 
 a.menu {
     color: blueviolet;
@@ -44,7 +41,7 @@ li.menu:hover {
     display: inline-block
 }
 
-h4 p {
+div.haiku {
   background-color: royalblue;
   width: 60%;
   margin: 20px auto;
@@ -81,7 +78,7 @@ table {
       width: 100px;
       height: 40px;
       text-align: center;
-      padding: 10;
+      padding: 10px;
     }
 
 @media only screen and (max-width: 600px) {
@@ -89,5 +86,3 @@ table {
     background-color: lightblue;
   }
 }
-
-</style>
