@@ -1,5 +1,7 @@
 <html>
 
+<title> Bryce's CSCI040 Webpage</title>
+
 <head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WWWRCXQN9V"></script>
@@ -11,68 +13,72 @@
   gtag('config', 'G-WWWRCXQN9V');
 </script>
 
-<!--The head tag is for non visible information-->
-  <title>brycekage csci40 website</title>
-    <!-- You can use open graph tags to customize link previews.
-    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
-  <meta property="og:url"           content="https://brycekage.github.io/" />
-  <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="brycekage csci40 website" />
-  <meta property="og:description"   content="First Lab Example" />
-  <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
 <!--style should be in head, #selected selcts tags w/id=selcted, .menu applies for class="menu", 
 whenever you refer to your own webpage or your own html. do not include the https-->
-<style>
-ul.menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
-li.menu {
-    background-color: lightblue;
-    float: left;
-    margin: 0;
-    padding: 10;
-}
+<link rel="stylesheet"
+    href="styles.css" />
 
-li#selected{
-    background-color: blue;
-}
-</style>
+<meta description=Welcome to My Cooking Menu — a personal collection of homemade Japanese curry, crispy katsu, 
+and fluffy chiffon pancakes, plus honest reviews from family taste-testers.>
+
 </head>  
 
 <body>
 <!-- all visible stuff on the page inside body tag-->
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v24.0&appId=APP_ID"></script>
-
-<p><a href="https://brycekage.github.io/">brycekage work</a> by <a href="https://github.com/brycekage">brycekage</a> is marked <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/zero.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">  
-</p>
-
-<p>
-<div class="fb-like" data-href="https://brycekage.github.io/" data-width="50" data-layout="" data-action="" data-size="" data-share="true"></div>   
-</p>
 
 <!--Goal: Create a Navigation Bar with CSS-->
-<h1 style="color:red;">My Zoo Webpage</h1>
+<h1 style="color:blueviolet;">My Cooking Menu</h1>
 <!--ol is ordered list w/numbers, ul is unordered list for bullets-->
-<div>
-<ul class="menu">
-    <li class="menu">Elephant</li>
-    <li class="menu" id="selected">Giraffe</li>
-    <li class="menu">Tiger</li>
-    <li class="menu">Lion</li>
-</ul>
-</div>
 
 <div>
-<h2> Names of Giraffes</h2>
-<ul>
-    <li> <a href="steve.html" Steve</li>
-    <li>Marty</li>
-    <li>George</li>
-</ul>
+<ul class="menu">
+    <li class="menu"> <a href=index.html> Home Page </a> </li>
+    <li class="menu"> <a href=JapaneseCurry.html> Japanese Curry </a> </li>
+    <li class="menu"> <a href="Katsu.html"> Katsu </a> </li>
+    <li class="menu"> <a href="ChiffonPancakes.html"> Chiffon Pancakes </a> </li>
+</ul>   
+</div>
+
+<p> </p>
+
+<div>
+<table>
+  <tr>
+    <td>People Who Have Eaten My Food:</td>
+    <td>Rating</td>
+    <td>Comments</td>
+  </tr>
+  <tr>
+    <td>Dad</td>
+    <td>8/10</td>
+    <td>Curry was rich</td>
+  </tr>
+  <tr>
+    <td>Mom</td>
+    <td>7/10</td>
+    <td>Could have seasoned Katsu better</td>
+  </tr>
+  <tr>
+    <td>Brady</td>
+    <td>9/10</td>
+    <td>Pancakes made me fat bc I ate too much</td>
+  </tr>
+</table>
+</div>
+
+<span>
+    <p>Haiku for p tags</p>
+    <p>I like to cook food sometimes</p>
+    <p>I hope you enjoy!</p>
+</span>
+
+<div>
+<p></p>
+<h2 id="selected"> <a href=https://github.com/mikeizbicki/cmc-csci040>Follow Our CSCI40 Course</a>
+<p></p>
+<p id="selected"> <a href=https://izbicki.me>Follow Mike...</a></p> </h2>
+
 </div>
 </body> 
 
