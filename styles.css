@@ -44,7 +44,7 @@ li.menu:hover {
     display: inline-block
 }
 
-span p {
+h4 p {
   background-color: royalblue;
   width: 60%;
   margin: 20px auto;
@@ -52,6 +52,11 @@ span p {
   border-radius: 8px;
   font-weight: bold;
   font-size: 20px;
+}
+
+.mark {
+  background-color: rebeccapurple;
+  font-weight: bold;
 }
 
 div {
